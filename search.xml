@@ -7,12 +7,9 @@
 <li><p>主要参考：<a href="https://www.jianshu.com/p/77db3862595c">https://www.jianshu.com/p/77db3862595c</a></p>
 </li>
 <li><p><code>hexo d</code>后 ERROR Deployer not found: git</p>
-</li>
-</ol>
-<p>​     解决方法: </p>
+<p>解决方法：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
-
-<ol start="3">
+</li>
 <li><p>提示 Error: EACCES: permission denied, open ‘/Users/xxx/.config/configstore/insight-cordova.json</p>
 <p>解决方法：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo chown -R <span class="variable">$USER</span>:<span class="variable">$GROUP</span> ~/.npm</span><br><span class="line">sudo chown -R <span class="variable">$USER</span>:<span class="variable">$GROUP</span> ~/.config</span><br></pre></td></tr></table></figure>
