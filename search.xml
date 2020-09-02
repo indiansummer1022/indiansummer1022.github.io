@@ -6,7 +6,7 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="一些参考"><a href="#一些参考" class="headerlink" title="一些参考"></a>一些参考</h3><ol>
 <li><p>主要参考：<a href="https://www.jianshu.com/p/77db3862595c">https://www.jianshu.com/p/77db3862595c</a></p>
 </li>
-<li><p><code>hexo d</code>后 ERROR Deployer not found: git</p>
+<li><p><code>hexo d</code>后 ERROR: Deployer not found: git</p>
 <p>解决方法：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
 </li>
